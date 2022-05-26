@@ -1,14 +1,13 @@
 import { Link } from 'react-router-dom'
 
-const Home = () => {
+const Another = () => {
   return (
     <>
       <Link to="/">Home</Link>
       <Link to="/another">Another</Link>
-      <h1>I'm the home Route</h1>
-      <p>I'm also the default route if none are specified.</p>
+      <h1>I'm another Route</h1>
     </>
   )
 }
 
-export default Home
+export default Another
